@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pawan Kumar | Aspiring SOC Analyst</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="pre"><div class="sh t"></div><div class="sh b"></div><div class="boot"><pre id="bootlog"></pre><div class="pbar"><i id="pfill"></i></div><div class="pct" id="pct">0%</div></div></div>
+<div id="bar"></div><div id="glow"></div><canvas id="rain"></canvas>
+
+<nav>
+ <a href="#top" class="logo">PAWAN<b>.</b>SEC</a>
+ <button id="burger" aria-label="Menu">&#9776;</button>
+ <ul id="menu">
+  <li><a href="#about">About</a></li><li><a href="#education">Education</a></li><li><a href="#skills">Crew</a></li><li><a href="#certs">Certificates</a></li>
+  <li><a href="#plan">The Plan</a></li><li><a href="#path">Journey</a></li><li><a href="#contact">Contact</a></li>
+ </ul>
+</nav>
+
+<header class="hero" id="top">
+ <div class="radar" aria-hidden="true"><i class="sweep"></i><b class="blip" style="--x:68%;--y:24%;--d:.6s"></b><b class="blip" style="--x:30%;--y:62%;--d:2.3s"></b><b class="blip" style="--x:74%;--y:70%;--d:3.2s"></b><b class="blip" style="--x:44%;--y:30%;--d:1.4s"></b></div>
+ <div class="term" id="term"></div>
+ <h1><span>Pawan</span><span class="glitch" data-t="Kumar">Kumar</span></h1>
+ <p class="role">I am training to be a <span id="typed"></span><span class="cur"></span></p>
+ <div class="btns">
+  <a href="#plan" class="btn">See the plan</a>
+  <a href="#contact" class="btn o">Join Me</a>
+ </div>
+ <div class="ticker" aria-hidden="true"><div class="tk" id="tk"><span><b>[ALERT]</b> 5 failed logins from 203.0.113.7, blocked</span><span><b>[INFO]</b> new SIEM rule deployed</span><span><b>[WARN]</b> phishing email quarantined</span><span><b>[OK]</b> endpoint patched</span><span><b>[ALERT]</b> unusual outbound traffic, investigating</span></div></div>
+</header>
+
+<main>
+<section id="about">
+ <h2 class="rv">The briefing</h2>
+ <p class="sub rv">Every heist needs someone watching the alarms. I want to be that person for real systems.</p>
+ <div class="about">
+  <div class="rv">
+   <p>I am a BCA student at Teerthanker Mahaveer University, Moradabad, graduating in 2027. My goal is to work as a SOC analyst: watching logs, spotting attacks early, and helping teams respond before real damage is done.</p>
+   <p>I also work as a Quality Department Assistant, so I bring habits that matter in security too: checking details, following procedures, and staying calm under pressure. I learn in public, and my notes, labs and projects are on GitHub.</p>
+   <p>In my quality job, one missed detail can become a big problem later. Security works the same way, only the stakes are higher. I like the idea of noticing a small warning sign in a log or an email before it turns into a real attack, and that is why I chose cybersecurity.</p>
+  </div>
+  <div class="stats rv">
+   <div class="stat"><b data-n="2027">0</b>BCA graduation year</div>
+   <div class="stat"><b>SOC</b>target role</div>
+  </div>
+ </div>
+</section>
+
+<section id="education">
+ <h2 class="rv">Education</h2>
+ <p class="sub rv">Where I studied and how I scored.</p>
+ <div class="grid">
+  <div class="card rv"><h3>BCA</h3><p>Teerthanker Mahaveer University, Moradabad. Graduating in 2027.</p><div class="tags"><span>2024 to 2027</span><span>Cybersecurity focus</span></div></div>
+  <div class="card rv"><h3>Class 12 (Intermediate)</h3><p>BSEB, PCMB stream, 2022 to 2024. Scored 66.6%.</p><div class="tags"><span>BSEB</span><span>PCMB</span><span>66.6%</span></div></div>
+  <div class="card rv"><h3>Class 10 (Matric)</h3><p>BSEB, 2021 to 2022. Scored 79%.</p><div class="tags"><span>BSEB</span><span>79%</span></div></div>
+ </div>
+</section>
+
+<section id="skills">
+ <h2 class="rv">The crew</h2>
+ <p class="sub rv">What I use now, what I am studying, and what comes next.</p>
+ <div class="skills">
+  <div class="sk rv"><h3>Using now</h3><div class="tags"><span>Kali Linux</span><span>Splunk</span><span>Linux commands</span><span>Networking</span><span>Python</span><span>HTML / CSS / JS</span></div></div>
+  <div class="sk rv"><h3>In progress</h3><div class="tags"><span>Google Cybersecurity Certificate</span><span>TryHackMe</span><span>30 Days SOC L1</span></div><p style="margin-top:1rem;color:var(--mute)">My Google course notes are on <a href="https://github.com/pawankumar68/gcs-cert-notes" target="_blank" rel="noopener">GitHub</a>. I practise labs on <a href="https://tryhackme.com/p/pawankumar68" target="_blank" rel="noopener">TryHackMe</a> and follow the 30 Days SOC L1 series by ZeroDay Vault on YouTube.</p></div>
+  <div class="sk rv"><h3>Learning next</h3><div class="tags"><span>Nmap</span><span>Wireshark</span></div><p style="margin-top:1rem;color:var(--mute)">Next tools on my list for network analysis.</p></div>
+ </div>
+</section>
+
+<section id="certs">
+ <h2 class="rv">Certificates</h2>
+ <p class="sub rv">Click a card to open the certificate.</p>
+ <div class="grid">
+  <a class="card rv" href="certs/codealpha-internship.pdf" target="_blank" rel="noopener"><h3>Cyber Security Virtual Internship</h3><p>CodeAlpha, 20 June to 20 July 2026. One month online internship. Completion certificate.</p><div class="tags"><span>CodeAlpha</span><span>Internship</span></div></a>
+  <a class="card rv" href="certs/codealpha-recommendation.pdf" target="_blank" rel="noopener"><h3>Letter of Recommendation</h3><p>Issued by CodeAlpha on 21 July 2026 after the cybersecurity internship.</p><div class="tags"><span>CodeAlpha</span><span>Recommendation</span></div></a>
+  <a class="card rv" href="certs/mastercard-forage.pdf" target="_blank" rel="noopener"><h3>Cybersecurity Job Simulation</h3><p>Mastercard on Forage, June 2026. Designed a phishing email simulation and interpreted its results.</p><div class="tags"><span>Mastercard</span><span>Forage</span><span>Phishing</span></div></a>
+  <a class="card rv" href="certs/splunk-intro.pdf" target="_blank" rel="noopener"><h3>Intro to Splunk</h3><p>Splunk Education, 6 February 2026.</p><div class="tags"><span>Splunk</span><span>SIEM</span></div></a>
+  <a class="card rv" href="certs/upgrad-fundamentals.pdf" target="_blank" rel="noopener"><h3>Fundamentals of Cybersecurity</h3><p>upGrad, 2 January 2026.</p><div class="tags"><span>upGrad</span><span>Basics</span></div></a>
+  <a class="card rv" href="certs/hack-dead-redemption.jpeg" target="_blank" rel="noopener"><h3>Hack Dead Redemption</h3><p>Participation certificate. Hackathon by the Faculty of Engineering, TMU, 10 and 11 April 2026.</p><div class="tags"><span>Hackathon</span><span>TMU</span></div></a>
+  <a class="card rv" href="certs/ieee-communication.jpg" target="_blank" rel="noopener"><h3>Communication Mentorship Program</h3><p>IEEE at TMU. Three week program as mentee, 23 September to 11 October 2024.</p><div class="tags"><span>IEEE</span><span>Communication</span></div></a>
+  <a class="card rv" href="https://github.com/pawankumar68/gcs-cert-notes" target="_blank" rel="noopener"><h3>Google Cybersecurity Certificate</h3><p>In progress. I am studying the course now and publishing my notes on GitHub.</p><div class="tags"><span>In progress</span><span>Google</span></div></a>
+ </div>
+</section>
+
+<section id="plan">
+ <h2 class="rv">The plan</h2>
+ <p class="sub rv">Real projects from my GitHub. Click a card to open the repository.</p>
+ <div class="grid">
+  <a class="card rv" href="https://github.com/pawankumar68/email-forensic-toolkit" target="_blank" rel="noopener"><h3>Email Forensic Toolkit</h3><p>Python command-line tool that reads .eml files and checks headers, SPF/DKIM/DMARC, sender location and links, then gives a risk score and exports IOCs to CSV.</p><div class="tags"><span>Python</span><span>Phishing</span><span>IOC</span></div></a>
+  <a class="card rv" href="https://github.com/pawankumar68/BioAuth-hackathon-project" target="_blank" rel="noopener"><h3>BioAuth</h3><p>Passwordless login that checks keystroke and mouse behavior, shows a live trust score, and asks for an email OTP when something looks wrong. Built for TMU Hackathon 2026.</p><div class="tags"><span>JavaScript</span><span>Chart.js</span><span>Hackathon</span></div></a>
+  <a class="card rv" href="https://github.com/pawankumar68/SOC-Journey" target="_blank" rel="noopener"><h3>SOC Journey</h3><p>My blue team learning log: SOC fundamentals, Linux, networking, and TryHackMe write-ups with screenshots.</p><div class="tags"><span>Blue Team</span><span>TryHackMe</span><span>Linux</span></div></a>
+  <a class="card rv" href="https://github.com/pawankumar68/gcs-cert-notes" target="_blank" rel="noopener"><h3>Google Cybersecurity Certificate Notes</h3><p>Course-wise and module-wise notes and a progress tracker, updated as I finish each module.</p><div class="tags"><span>Notes</span><span>In progress</span></div></a>
+  <a class="card rv" href="https://github.com/pawankumar68/CodeAlpha_NetworkSniffer" target="_blank" rel="noopener"><h3>Network Sniffer</h3><p>CodeAlpha task: a program that captures and inspects network traffic.</p><div class="tags"><span>Networking</span><span>CodeAlpha</span></div></a>
+  <a class="card rv" href="https://github.com/pawankumar68/CodeAlpha_SecureCodingReview" target="_blank" rel="noopener"><h3>Secure Coding Review</h3><p>CodeAlpha task: reviewing code for security weaknesses and how to fix them.</p><div class="tags"><span>Secure coding</span><span>CodeAlpha</span></div></a>
+  <a class="card rv" href="https://github.com/pawankumar68/CodeAlpha_PhishingAwareness" target="_blank" rel="noopener"><h3>Phishing Awareness</h3><p>CodeAlpha task: material that helps people spot and avoid phishing attacks.</p><div class="tags"><span>Phishing</span><span>Awareness</span><span>CodeAlpha</span></div></a>
+ </div>
+</section>
+
+<section id="path">
+ <h2 class="rv">The journey</h2>
+ <p class="sub rv">Work, internship, hackathons and what comes next.</p>
+ <div class="tl rv">
+  <div><small>Now</small><b>Smart India Hackathon, team leader</b><p>My team passed the college internal round and submitted its idea on the SIH portal. Waiting for the result.</p></div>
+  <div><small>Now</small><b>Google Cybersecurity Certificate</b><p>Studying the course, practising on TryHackMe and following the 30 Days SOC L1 series on YouTube.</p></div>
+  <div><small>June to July 2026</small><b>Cyber Security Virtual Internship, CodeAlpha</b><p>One month online internship. Built a network sniffer and worked on secure code review and phishing awareness tasks.</p></div>
+  <div><small>April 2026</small><b>Hack Dead Redemption, team leader</b><p>TMU hackathon. We built BioAuth, a passwordless login using behavioral biometrics.</p></div>
+  <div><small>Graduating 2027</small><b>BCA, Teerthanker Mahaveer University</b><p>Computer applications with a focus on cybersecurity.</p></div>
+  <div><small>Next</small><b>Entry level SOC analyst</b><p>More labs, Nmap and Wireshark practice, and a first role monitoring real alerts.</p></div>
+ </div>
+</section>
+
+<section class="contact" id="contact">
+ <h2 class="rv">Join Me</h2>
+ <p class="sub rv">Hiring for a SOC trainee role, or want to talk security? Send a message.</p>
+ <div class="links rv">
+  <a class="btn" href="mailto:pawanpandey9493@gmail.com">Email me</a>
+  <a class="btn o" href="tel:+919065721385">+91 9065721385</a>
+  <a class="btn o" href="https://www.linkedin.com/in/pawankumar-soc-analyst/">LinkedIn</a>
+  <a class="btn o" href="https://github.com/pawankumar68">GitHub</a>
+  <a class="btn o" href="https://tryhackme.com/p/pawankumar68">TryHackMe</a>
+ </div>
+</section>
+</main>
+<footer>&copy; 2026 Pawan Kumar. Watch the alarms. Trust the plan.</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
