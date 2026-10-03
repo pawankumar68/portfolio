@@ -19,12 +19,6 @@ function start(){
  if(!reduce)setTimeout(()=>document.querySelectorAll('h1 span').forEach(scramble),900);
  const t=document.getElementById('term'),msg='> access granted. welcome, professor_';let i=0;
  (function k(){t.textContent=msg.slice(0,i++);if(i<=msg.length)setTimeout(k,reduce?0:45)})();
- const roles=['SOC Analyst','Threat Hunter','Incident Responder','Blue Team Defender'];let r=0,ch=0,del=false;
- const el=document.getElementById('typed');
- (function ty(){const w=roles[r];el.textContent=w.slice(0,ch);
-  if(!del&&ch===w.length){del=true;return setTimeout(ty,1400)}
-  if(del&&ch===0){del=false;r=(r+1)%roles.length}
-  ch+=del?-1:1;setTimeout(ty,del?40:90)})();
 }
 // red code rain
 const cv=document.getElementById('rain'),x=cv.getContext('2d');let cols,drops;
