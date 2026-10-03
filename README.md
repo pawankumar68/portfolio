@@ -10,13 +10,13 @@ Animated, Money Heist themed (red, black and white) portfolio of **Pawan Kumar**
 
 ## What is inside
 
-- **The briefing:** short introduction and career goal
-- **Education:** BCA, Class 12 and Class 10
-- **The crew:** tools I use now, what I am learning, and what comes next
+- **About me:** who I am and my SOC Analyst goal
+- **Education:** BCA (expected 2027), Class 12 and Class 10
+- **Skills & Tools:** cybersecurity, networking, tools and technologies
 - **Certificates:** CodeAlpha internship, Mastercard job simulation, Splunk, upGrad, IEEE and more
-- **The plan:** my GitHub projects, including Email Forensic Toolkit and BioAuth
-- **The journey:** internship, hackathons and learning timeline
-- **Join Me:** email and social links
+- **Projects:** what I built, tools used and what I learned, with GitHub links
+- **SOC Learning Path:** what I am learning and practising for a SOC career
+- **Contact:** email, LinkedIn, GitHub and TryHackMe
 
 ## Features
 
